@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🖐️ AirDraw – Draw in the Air Using Hand Gestures
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AirDraw** is an AI-powered **gesture-controlled drawing app** built with **React**,and **MediaPipe Hands**.  
+It lets you **draw in mid-air using just your hand** — no mouse, no touch, no stylus required! 🎨  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- ✍️ **Draw with your index finger** in the air  
+- ✌️ **Change colors** using two fingers  
+- 🖐️ **Add spaces** with an open palm  
+- ✊ **Pause drawing** with a closed fist  
+- 🤟 **Clear the canvas** with a three-finger gesture  
+- 🎥 **Live hand tracking preview**  
+- 🎨 Beautiful, modern **UI with TailwindCSS**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎬 Demo
 
-### `npm test`
+*(Add your YouTube video or demo GIF here)*  
+> 🎥 [Watch the full tutorial on YouTube](https://youtu.be/-YqXz44vTSc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+AirDraw uses **MediaPipe Hands** to detect and track 21 landmarks on your hand in real-time.  
+These landmarks are processed to detect specific finger positions, which are mapped to actions like drawing, color change, or clearing the canvas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Core Logic:**
+- **MediaPipe Hands** → Real-time hand detection & tracking  
+- **Gesture Recognition** → Finger positions determine user intent  
+- **Canvas Rendering** → Smooth drawing using the HTML5 canvas API  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧩 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Technology | Purpose |
+|-------------|----------|
+| **React** | UI framework |
+| **MediaPipe Hands** | Hand detection & landmark tracking |
+| **TailwindCSS** | Styling and layout |
+| **Camera Utils** | Webcam integration |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✋ Gesture Controls
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Gesture | Action |
+|----------|--------|
+| ☝️ **Index Finger Up** | Draw on canvas |
+| ✌️ **Two Fingers Up** | Switch color |
+| 🖐️ **Open Palm** | Add space / separator |
+| ✊ **Closed Fist** | Stop drawing |
+| 🤟 **Three Fingers Up** | Clear canvas |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone this repository and install dependencies:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/barmangolap15/Air-Draw-React-App.git
+cd Air-Draw-React-App
+npm install
+npm start
