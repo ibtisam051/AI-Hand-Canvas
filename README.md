@@ -19,7 +19,6 @@ It lets you **draw in mid-air using just your hand** — no mouse, no touch, no 
 
 ## 🎬 Demo
 
-*(Add your YouTube video or demo GIF here)*  
 > 🎥 [Watch the full tutorial on YouTube](https://youtu.be/-YqXz44vTSc)
 
 ---
