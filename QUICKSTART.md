@@ -303,11 +303,4 @@ For bug reports or feature requests:
 
 ---
 
-## License
-MIT License - Free to use and modify
 
----
-
-**Happy Drawing! 🎨✨**
-
-*Last Updated: April 2026*

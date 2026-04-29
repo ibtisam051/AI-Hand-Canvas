@@ -17,12 +17,6 @@ It lets you **draw in mid-air using just your hand** — no mouse, no touch, no 
 
 ---
 
-## 🎬 Demo
-
-> 🎥 [Watch the full tutorial on YouTube](https://youtu.be/-YqXz44vTSc)
-
----
-
 ## 🧠 How It Works
 
 AirDraw uses **MediaPipe Hands** to detect and track 21 landmarks on your hand in real-time.  
@@ -55,15 +49,3 @@ These landmarks are processed to detect specific finger positions, which are map
 | 🖐️ **Open Palm** | Add space / separator |
 | ✊ **Closed Fist** | Stop drawing |
 | 🤟 **Three Fingers Up** | Clear canvas |
-
----
-
-## ⚙️ Installation
-
-Clone this repository and install dependencies:
-
-```bash
-git clone https://github.com/barmangolap15/Air-Draw-React-App.git
-cd Air-Draw-React-App
-npm install
-npm start

@@ -312,23 +312,3 @@ To improve the model:
 3. Tune temporal filter history size
 4. Test with various hand sizes and distances
 
----
-
-## 📄 License
-
-MIT License - Feel free to use and modify
-
----
-
-## 📞 Support
-
-For issues or questions:
-1. Check gesture detection confidence/stability bars
-2. Verify good lighting and hand visibility
-3. Check browser console for detailed error logs
-4. Restart the application
-
----
-
-**Last Updated**: April 2026
-**Version**: 2.0 - AI-Enhanced Edition
